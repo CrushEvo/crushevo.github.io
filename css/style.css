@@ -1,0 +1,93 @@
+html {
+	height: 100vh;
+}
+body {
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-family: 'Russo One', sans-serif;
+}
+img {
+	width: 200px;
+	height: auto;
+}
+.statistics {
+	text-align: center;
+	margin-top: 40vh;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+}
+.flip-container {
+	perspective: 1000;
+	display: inline-block;
+	margin: 0 10px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+	width: 200px;
+	height: 200px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+	z-index: 2;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.grey {
+  -webkit-filter: grayscale(80%);
+  -moz-filter: grayscale(80%);
+  -ms-filter: grayscale(80%);
+  -o-filter: grayscale(80%);
+  filter: grayscale(80%);
+  filter: gray; /* IE 6-9 */
+  opacity: 0.6
+}
+h3 {
+	margin-top: 85px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.descript {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+}
+.border_red {
+	border: 10px solid #ff0000;
+}
+.kinopoisk_color {
+	color: #ff770b;
+}
+.myshows_color {
+	color: #e71401;
+}
+.livelib_color {
+	color: #0769d8;
+}
+.lastfm_color {
+	color: #d31f27;
+}
+.steam_color {
+	color: #07193f;
+}
