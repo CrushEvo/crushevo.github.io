@@ -94,18 +94,18 @@ h3 {
 
 @media (max-width: 992px) { 
 img {
-		width: 150px;
-		height: 150px;
-		padding-bottom: 20px;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
 }
 .flip-container, .front, .back {
 	width: 150px;
 	height: 150px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 .descript {
 	width: 150px;
 	height: 150px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 }
