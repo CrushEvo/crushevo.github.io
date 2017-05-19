@@ -99,4 +99,7 @@ h3 {
 	background-size: cover;
 	font-family: 'Russo One', sans-serif;
 }
+	img {
+		width: 150px;
+	}
 }
