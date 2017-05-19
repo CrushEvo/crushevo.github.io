@@ -2,8 +2,8 @@ html {
 	height: 100vh;
 }
 body {
-	background-image: url('../img/background.jpg');
-	background-repeat: no-repeat;
+	background-image: url('../img/bg.png');
+	background-repeat: repeat;
 	background-position: center center;
 	background-size: cover;
 	font-family: 'Russo One', sans-serif;
@@ -90,4 +90,13 @@ h3 {
 }
 .steam_color {
 	color: #07193f;
+}
+
+@media (max-width: 992px) { 
+	body {
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: cover;
+	font-family: 'Russo One', sans-serif;
+}
 }
